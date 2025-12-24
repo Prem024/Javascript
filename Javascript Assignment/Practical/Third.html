@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        var a = parseFloat(prompt("Enter first number:"));
+        var b = parseFloat(prompt("Enter Second Number:"));
+
+        var sum = a + b;
+        var sub = a - b;
+        var mul = a * b;
+        var div = a / b;
+
+        document.write("Addition: " + sum + "<br>");
+        document.write("Subtraction: " + sub + "<br>");
+        document.write("Multiplication: " + mul + "<br>");
+        document.write("Division: " + div + "<br>");
+
+        if (a === b) {
+            document.write("A & B are equal<br>");
+        } else if (a > b) {
+            document.write("A is Greater Than B <br>");
+        } else {
+            document.write("A is Greater Than B <br>");
+        }
+
+        if(a > 10 && b < 5)
+        {
+            document.write("True<br>")
+        }
+        else{
+            document.write("False<br>")
+        }
+
+    </script>
+</body>
+
+</html>
